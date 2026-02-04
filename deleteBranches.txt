@@ -1,0 +1,7 @@
+local
+git branch -d dev
+git branch -d test 
+
+remote 
+git push origin --delete dev
+git push origin --delete test
